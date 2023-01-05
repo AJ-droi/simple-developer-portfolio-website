@@ -9,6 +9,7 @@ export default function FavouriteProjects() {
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
             Favourite Projects
           </h1>
+       
           <Link
             href="/projects"
             className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700"
@@ -34,8 +35,9 @@ export default function FavouriteProjects() {
 
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <h2>Project Hosting In Progress.....,<br /> You can visit my github to see my projects repository.</h2>
           {/* Single card */}
-          <a
+          {/* <a
             href="https://tailwindmasterkit.com"
             className="w-full block col-span-3 shadow-2xl"
           >
@@ -52,7 +54,7 @@ export default function FavouriteProjects() {
                 01
               </h1>
             </div>
-          </a>
+          </a> */}
           {/* Single card */}
           <a
             href="https://placeholdertech.in"
@@ -60,7 +62,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
+              {/* <img
                 src="/placeholdertech.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
@@ -70,7 +72,7 @@ export default function FavouriteProjects() {
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 02
-              </h1>
+              </h1> */}
             </div>
           </a>
           {/* Single card */}
@@ -80,7 +82,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden shadow-2xl">
               {/* <div className="overlay absolute inset-0 bg-black bg-opacity-70 z-10"></div> */}
-              <img
+              {/* <img
                 src="/portfolio.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
@@ -90,7 +92,7 @@ export default function FavouriteProjects() {
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
-              </h1>
+              </h1> */}
             </div>
           </a>
         </div>

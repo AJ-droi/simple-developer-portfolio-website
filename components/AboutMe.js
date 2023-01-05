@@ -20,7 +20,7 @@ export default function AboutMe() {
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
             >
-              {userData.about.currentProject} ✈️
+              {userData.about.currentProject} 
             </a>
           </p>
         </div>
@@ -34,14 +34,13 @@ export default function AboutMe() {
                 Contact
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                For any sort help / enquiry, shoot a{" "}
+                For any sort help / enquiry, send a{" "}
                 <a
                   href={`mailto:${userData.email}`}
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   mail
                 </a>{" "}
-                and I'll get back. I swear.
               </p>
             </div>
             <div className="mt-8">
@@ -49,16 +48,25 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently, If you see me as a good fit,
+                I'm looking for a job currently, I 'm open to React Developer roles
                 check my{" "}
                 <a
-                  href={userData.resumeUrl}
+                  href={userData.frontEndUrl}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  CV
+                  frontend CV
                 </a>{" "}
-                and I'd love to work for you.
+                and backend developer roles(Nodejs).
+                check my{" "}
+                <a
+                  href={userData.backEndUrl}
+                  target="__blank"
+                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                > 
+                backend CV. 
+                </a> {" "}
+                I'd love to work with you.
               </p>
             </div>
             {/* Social Links */}
@@ -67,7 +75,7 @@ export default function AboutMe() {
             </h1>
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center ">
-                <a
+                {/* <a
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
                 >
@@ -76,7 +84,7 @@ export default function AboutMe() {
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     Facebook
                   </div>
-                </a>
+                </a> */}
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
@@ -114,7 +122,7 @@ export default function AboutMe() {
                   </div>
                 </a>
               </div>
-              <div className="flex flex-row justify-start items-center">
+              {/* <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.instagram}
                   className="flex flex-row items-center space-x-4 group"
@@ -125,7 +133,7 @@ export default function AboutMe() {
                     Instagram
                   </div>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Text area */}
@@ -147,10 +155,7 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+          
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
                 className="h-20 w-20 mx-4 my-4"
@@ -163,14 +168,7 @@ export default function AboutMe() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
+          
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
