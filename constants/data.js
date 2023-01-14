@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
-  name: "Manu Arora",
-  designation: "Full-Stack Developer",
-  avatarUrl: "/avatar.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  githubUsername: "AJ-droi",
+  name: "Ajiri Enoch Osiobe",
+  designation: "MERN-Stack Developer",
+  avatarUrl: "/profile.jpg",
+  email: "ajiriosiobe@gmail.com",
+  phone: "+234 8104228894",
+  address: "https://github.com/AJ-droi",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -50,67 +50,69 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "I'm an agile software developer that loves building products and web applications.",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `I 'm Customer-focused software professional with superior communication skills and expertise in Consumption of RestFul API’s and Front-end development frameworks including React. Understands and meets both client and employer needs and develops highly functional, robust and easy-to-use applications. Excels as hands-on developer and oversees work of software teams.
+      `,
+      
     ],
-    currentProject: "Tailwind Master Kit",
-    currentProjectUrl: "https://tailwindmasterkit.com",
+    currentProject: "Music Player Application",
+    // currentProjectUrl: "https://tailwindmasterkit.com",
   },
   experience: [
     {
-      title: "Software Developer",
-      company: "mroads",
-      year: "2021",
+      title: "Software Engineer",
+      company: "Decagon Institute, Edo",
+      year: "2022",
       companyLink: "https://mroads.com",
-      desc: "Contributed to our flagship product - Panna - which is an AI powered candidate interviewing product.",
+      desc: "A Key member of  the  team that developed a Car-Ride-Booking Platform with the integration of REST APIs Google map and Paystack Payment gateway, Built a REACT FoodApp Project that consumes a Node RestFul API.Containerized Applications using Docker.Experienced in writing unit and integration tests using JEST",
     },
     {
-      title: "Founder and Developer",
-      company: "TailwindMasterKit",
-      year: "2021",
+      title: "FrontEnd Team Lead",
+      company: "PeersApp StartUp, Remote",
+      year: "2022",
       companyLink: "https://tailwindmasterkit.com",
-      desc: "Developed a marketplace for tailwind web components (React, HTML and Angular) and templates.",
+      desc: "Successfully contributed to the growth of the startup from boot camp phase to the company registration phase. Contributed actively towards the development of the PEERSAPP mobile app.Part of the team that won the Side hustle 6.0 bootcamp product pitch. Used agile scrum methodology to meet Deadlines and deliver Quality Output."
     },
     {
-      title: "Founder and Developer",
-      company: "Algochurn",
-      year: "2021",
+      title: "Part Time Online Website Instructor",
+      company: "EarlyBrite Ltd, Remote",
+      year: "2022",
       companyLink: "https://algochurn.com",
-      desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
+      desc: "Taught young minds between the age of 9-17 on the following languages html, css, bootstrap, javascript. Built Responsive Pages and basic javascript projects."
     },
     {
-      title: "Internship",
-      company: "Intel Corporation",
-      year: "2019",
+      title: "Reactjs Intern",
+      company: "SideHustle 6.0 Boot camp, Remote",
+      year: "2021",
       companyLink: "https://intel.com",
-      desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver.",
+      desc: "Learned the concept of React Framework. Understood the concept of hooks, routing and consumption of API endpoints. Built a React mini-library project.",
     },
     {
-      title: "Graduation",
-      company: "UPES, Dehradun.",
-      year: "2019",
+      title: "Javascript Intern",
+      company: "SideHustle 4.0 Boot camp, Remote",
+      year: "2021",
       companyLink: "https://upes.co.in",
-      desc: "Major in Computer Science and Engineering with a CGPA of 7.0. Nobody asks this but it's okay.",
+      desc: "Learned the concept of web Development. Built projects on HTML, CSS and Javascript.",
     },
     {
-      title: "High School",
-      company: "Delhi Public School, Jaipur.",
-      year: "2015",
+      title: "Front End Team Lead",
+      company: "Stem Professionals Ltd, Port Harcourt, Nigeria",
+      year: "2020",
       companyLink: "https://upes.co.in",
-      desc: "Subjects being PCM - I barely survived with 93.6% marks aggregate. Flex fridays, fellas.",
+      desc: "Physically and digitally instructed more than 300 pupils in Web Development across several schools in Port-Harcourt. Contributed and worked as a team member in Port Harcourt Robotic Contest. Worked as a team lead to the front end web development team.",
     },
   ],
-  resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+  frontEndUrl:
+    "https://docs.google.com/document/d/1IrbOmyM0XwHGkC9evsGvQuPj2Tm1q0lz76qgsMpJfGo/edit?usp=share_link",
+  backEndUrl: "https://docs.google.com/document/d/19DORnOrLayA5EGO1tC_VvMWP76Eb_DJRrRT9rELIlf0/edit?usp=share_link",
+  
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
-    twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
-    github: "https://github.com/manuarora700",
-    facebook: "https://facebook.com/",
+    // instagram: "https://instagram.com/manint",
+    twitter: "https://twitter.com/osiobe_ajiri",
+    linkedin: "https://www.linkedin.com/in/ajiri-osiobe-801675184/",
+    github: "https://github.com/AJ-droi",
+    // facebook: "https://facebook.com/",
   },
 };
 
