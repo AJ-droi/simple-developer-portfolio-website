@@ -227,34 +227,34 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="space-x-8 block flex flex-col mt-4 text-center md:flex-row">
+      <div className="space-x-8 block flex flex-col mt-4 text-center h-[20vh] md:flex-row">
       <Link
           href="/"
-          className="text-base font-normal text-gray-100 dark:text-gray-300 pl-[33px] md:pl-[0px]"
+          className="text-base font-normal text-gray-100  dark:text-gray-300 pl-[33px] md:pl-[0px]"
         >
           Home
         </Link>
         <Link
           href="/about"
-          className="text-base font-normal text-gray-100 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 my-[2%] md:my-[0%] dark:text-gray-300"
         >
           About
         </Link>
         <Link
           href="/projects"
-          className="text-base font-normal text-gray-100 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 my-[2%] md:my-[0%] dark:text-gray-300"
         >
           Projects
         </Link>
         <Link
           href="/experience"
-          className="text-base font-normal text-gray-100 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 my-[2%] md:my-[0%] dark:text-gray-300"
         >
           Experience
         </Link>
         <Link
           href="/contact"
-          className="text-base font-normal text-gray-100 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 my-[2%] md:my-[0%] dark:text-gray-300"
         >
           Contact
         </Link>
