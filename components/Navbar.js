@@ -15,14 +15,14 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20 ">
+    <div className="  mx-auto px-4 py-10 md:py-20 fixed z-50 bg-[#0C034B] w-[100%]  dark:bg-[#0C034]">
       <div className="flex  md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
-            <h1 className="font-semibold text-xl dark:text-gray-100">
+            <h1 className="font-semibold text-xl text-gray-100 dark:text-gray-300">
               {userData.name}
             </h1>
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
+            <p className="text-base font-light text-gray-100 dark:text-gray-300">
               {userData.designation}
             </p>
           </Link>
@@ -227,34 +227,34 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="space-x-8 block w-[100%] mt-4">
+      <div className="space-x-8 block flex flex-col mt-4 text-center md:flex-row">
       <Link
           href="/"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 dark:text-gray-300 pl-[33px] md:pl-[0px]"
         >
           Home
         </Link>
         <Link
           href="/about"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 dark:text-gray-300"
         >
           About
         </Link>
         <Link
           href="/projects"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 dark:text-gray-300"
         >
           Projects
         </Link>
         <Link
           href="/experience"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 dark:text-gray-300"
         >
           Experience
         </Link>
         <Link
           href="/contact"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 dark:text-gray-300"
         >
           Contact
         </Link>
