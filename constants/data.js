@@ -8,51 +8,47 @@ const userData = {
   address: "https://github.com/AJ-droi",
   projects: [
     {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
+      title: "Sickle Cell Awareness Healh Foundation Website",
+      link: "https://scahf.netlify.com",
+      imgUrl: "/scahf.png",
     },
     {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
+      title: "PeersApp Landing Page",
+      link: "https://peers-app.netlify.app",
+      imgUrl: "/peersapp.png",
     },
     {
       title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
+      link: "https://ajiriosiobe.netlify.app/",
+      imgUrl: "/ajiri.png",
     },
     {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
+      title: "Ahuizi Investment Ltd",
+      link: "https://ahuiziinvest.com",
+      imgUrl: "/Agriculture.png",
     },
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
+      title: "Veeys UI/UX Portfolio Website",
+      link: "https://veeys-portfolio.netlify.app/",
+      imgUrl: "/veeysPortfolio.png",
     },
     {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
+      title: "ArticTravels",
+      link: "https://articc-travels.netlify.app/",
+      imgUrl: "/articTravels.png",
     },
     {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
+      title: "ColorFlipperJs",
+      link: "https://colorfllipper.netlify.app/",
+      imgUrl: "/colorFlipper.png",
     },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
-    },
+   
   ],
   about: {
     title:
       "I'm an agile software developer that loves building products and web applications.",
     description: [
-      `I 'm Customer-focused software professional with superior communication skills and expertise in Consumption of RestFul API’s and Front-end development frameworks including React. Understands and meets both client and employer needs and develops highly functional, robust and easy-to-use applications. Excels as hands-on developer and oversees work of software teams.
+      `I 'm a Customer-focused software professional with superior communication skills and expertise in Consumption of RestFul API’s and Front-end development frameworks including ReactJs. I Understands and meet both client and employer needs and develops highly functional, robust and easy-to-use applications. I have Excelled as a hands-on developer and oversees work of agile software teams.
       `,
       
     ],

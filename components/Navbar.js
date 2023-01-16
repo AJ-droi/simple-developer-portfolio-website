@@ -15,20 +15,45 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="  mx-auto px-4 py-10 md:py-20 fixed z-50 bg-[#0C034B] w-[100%]  dark:bg-[#0C034]">
       <div className="flex  md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
-            <h1 className="font-semibold text-xl dark:text-gray-100">
+            <h1 className="font-semibold text-xl text-gray-100 dark:text-gray-300">
               {userData.name}
             </h1>
-            <p className="text-base font-light text-gray-500 dark:text-gray-300">
+            <p className="text-base font-light text-gray-100 dark:text-gray-300">
               {userData.designation}
             </p>
           </Link>
         </div>
 
         <div className="space-x-8 hidden md:block">
+        {/* <Link
+            href="/"
+            className={`text-base  ${
+              router.asPath === "/about"
+                ? "text-gray-800 font-bold dark:text-gray-400"
+                : "text-gray-600 dark:text-gray-300 font-normal "
+            }`}
+          >
+            Home{" "}
+            {router.asPath === "/about" && (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-arrow-down inline-block h-3 w-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                />
+              </svg>
+            )}
+          </Link>
           <Link
             href="/about"
             className={`text-base  ${
@@ -128,7 +153,7 @@ export default function Navbar() {
                 />
               </svg>
             )}
-          </Link>
+          </Link> */}
         </div>
 
         <div className="space-x-4 flex flex-row items-center">
@@ -202,28 +227,34 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="space-x-8 block md:hidden mt-4">
+      <div className="space-x-8 block flex flex-col mt-4 text-center h-[20vh] md:flex-row">
+      <Link
+          href="/"
+          className="text-base font-normal text-gray-100  dark:text-gray-300 pl-[33px] md:pl-[0px]"
+        >
+          Home
+        </Link>
         <Link
           href="/about"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 my-[2%] md:my-[0%] dark:text-gray-300"
         >
           About
         </Link>
         <Link
           href="/projects"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 my-[2%] md:my-[0%] dark:text-gray-300"
         >
           Projects
         </Link>
         <Link
           href="/experience"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 my-[2%] md:my-[0%] dark:text-gray-300"
         >
           Experience
         </Link>
         <Link
           href="/contact"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className="text-base font-normal text-gray-100 my-[2%] md:my-[0%] dark:text-gray-300"
         >
           Contact
         </Link>
