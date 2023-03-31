@@ -8,6 +8,11 @@ const userData = {
   address: "https://github.com/AJ-droi",
   projects: [
     {
+      title: "Smooze Music Application",
+      link: "https://smoozepro.netlify.app/",
+      imgUrl: "/smoozeApp.png",
+    },
+    {
       title: "Sickle Cell Awareness Healh Foundation Website",
       link: "https://scahf.netlify.com",
       imgUrl: "/scahf.png",
