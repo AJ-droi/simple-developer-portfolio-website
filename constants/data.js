@@ -8,6 +8,11 @@ const userData = {
   address: "https://github.com/AJ-droi",
   projects: [
     {
+      title: "Dat Visualization using D3js, React and Azure",
+      link: "https://reactt-azure.azurewebsites.net/",
+      imgUrl: "/d3js.png",
+    },
+    {
       title: "Smooze Music Application",
       link: "https://smoozepro.netlify.app/",
       imgUrl: "/smoozeApp.png",
